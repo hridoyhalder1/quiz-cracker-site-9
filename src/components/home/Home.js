@@ -6,7 +6,7 @@ import './Home.css';
 
 const Home = () => {
     const quizs = useLoaderData().data;
-    console.log(quizs);
+    // console.log(quizs);
     return (
 
         <div>
