@@ -1,0 +1,29 @@
+.cards-info{
+    border: 2px solid gray;
+    background-color:#130f40;
+    padding: 10px;
+    border-radius: 10px;
+}
+.cards-info img{
+    width: 200px;
+    height: 200px;
+}
+h4{
+    color: white;
+}
+
+.cards-detail{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+}
+.card-btn{
+    background-color: #FF3E8A;
+    color: white;
+    padding: 10px 30px;
+    border-radius: 40px;
+    border: none;
+}

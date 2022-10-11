@@ -2,19 +2,26 @@ import React from 'react';
 import { useLoaderData } from 'react-router-dom';
 import Banner from '../banner/Banner';
 import Cards from '../Cards/Cards';
-
+import './Home.css';
 
 const Home = () => {
-    const quiz = useLoaderData();
-    console.log(quiz);
+    const quizs = useLoaderData().data;
+    console.log(quizs);
     return (
-        
+
         <div>
             <Banner></Banner>
-            <div>
-                <Cards></Cards>
+            <div className='home-container'>
+                <div className="cards-container">
+                    {
+                        quizs.map(quiz => <Cards
+                            key={quiz.id}
+                            quiz={quiz}
+                        ></Cards>)
+                    }
+                </div>
             </div>
-            <h2>home page{quiz.data.length}</h2>
+
         </div>
     );
 };

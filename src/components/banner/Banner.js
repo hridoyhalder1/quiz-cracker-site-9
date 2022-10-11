@@ -13,7 +13,7 @@ const Banner = () => {
                     />
                     <Carousel.Caption>
                         <h1>Welcome to Our Genius Quiz Website. </h1>
-                        <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+                        <p>We propose a method for finding misconceptions underlying this failure.</p>
                     </Carousel.Caption>
                 </Carousel.Item>
                 
