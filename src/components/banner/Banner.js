@@ -16,7 +16,7 @@ const Banner = () => {
                         <p>We propose a method for finding misconceptions underlying this failure.</p>
                     </Carousel.Caption>
                 </Carousel.Item>
-                
+
             </Carousel>
         </div>
     );

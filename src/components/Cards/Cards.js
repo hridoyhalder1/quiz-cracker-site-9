@@ -1,8 +1,8 @@
 import React from 'react';
 import './Cards.css';
 
-const Cards = ({quiz}) => {
-    const {name, logo, total} = quiz;
+const Cards = ({ quiz }) => {
+    const { name, logo, total } = quiz;
     return (
         <div className='cards-info'>
             <img src={logo} alt="" />
