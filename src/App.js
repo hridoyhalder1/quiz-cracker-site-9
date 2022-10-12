@@ -18,7 +18,11 @@ function App() {
           element: <Home></Home>,
         },
         {
-          path: '/topics',
+          path: '/topics/:topicsId',
+          loader: async({params}) =>{
+            // console.log(params.topicsId);
+            return fetch(`https://openapi.programming-hero.com/api/quiz/${params.topicsId}`)
+          },
           element: <Topics></Topics>
         },
         {
