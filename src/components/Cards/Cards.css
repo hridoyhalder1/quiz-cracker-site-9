@@ -29,4 +29,12 @@ h4 {
     padding: 10px 30px;
     border-radius: 40px;
     border: none;
+    
+}
+.card-btn a{
+    text-decoration: none;
+    color: white;
+}
+.card-btn a:hover{
+    color: #fff;
 }
