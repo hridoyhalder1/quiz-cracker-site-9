@@ -7,8 +7,19 @@
     border-bottom: 2px solid gainsboro;
     
 }
+@media screen and (max-width: 770px){
+    .navbar{
+        margin-left: 20px;
+        text-align: center;
+    }
+    .navbar h1{
+        text-align: center;
+        margin-left: 50px;
+    }
+}
 .navbar h1{
     color: blueviolet;
+    
 }
 .navbar a{
     margin-left: 20px;
