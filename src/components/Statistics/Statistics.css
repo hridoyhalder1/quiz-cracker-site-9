@@ -1,9 +1,0 @@
-.rechart{
-    margin: 100px 400px;
-    
-}
-@media screen and (max-width: 770px){
-    .rechart{
-        margin: 20px 10px;
-    }
-}
